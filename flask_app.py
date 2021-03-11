@@ -1,6 +1,6 @@
 import os
 from flask import Flask, render_template, request, redirect, send_file
-from s3_demo import list_files, download_file, upload_file
+from s3_interaction import list_files, download_file, upload_file
 
 app = Flask(__name__)
 UPLOAD_FOLDER = "uploads"
